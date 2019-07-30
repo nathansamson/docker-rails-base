@@ -14,4 +14,4 @@ RUN gem install msgpack:1.2.10 scrypt:3.0.6 ffi:1.11.1
 RUN gem install nokogiri:1.10.3 pg:1.1.4 mini_racer:0.2.6 sassc:2.0.1
 RUN gem install curb:0.9.10 bootsnap:1.4.4
 RUN gem install sassc:1.12.1
-RUN gem install puma:1.12.1
+RUN gem install puma:3.12.1
