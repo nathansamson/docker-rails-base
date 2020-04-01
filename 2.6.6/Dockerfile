@@ -6,7 +6,7 @@ RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources
 
 
 RUN apt-get update
-RUN apt-get install -y nodejs ruby-all-dev yarn libjemalloc1
+RUN apt-get install -y nodejs yarn libjemalloc2
 RUN apt-get install -y postgresql-client --no-install-recommends
 
 
